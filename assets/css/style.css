@@ -154,7 +154,9 @@ html{
     text-align: center;
    }
 
-
+   .hero-content a{
+    margin-left: 12px;
+   }
 
    
 
