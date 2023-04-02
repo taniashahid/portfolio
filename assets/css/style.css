@@ -64,6 +64,7 @@ html{
     
     
     
+    
 }
 
 .hero-content h1{
@@ -84,7 +85,7 @@ html{
     font-size: 18px;
     color: var(--white);
     text-transform: capitalize;
-    padding: 17px 32px;
+    padding: 18px 24px;
 
     
 }
@@ -153,8 +154,10 @@ html{
    .hero-content p{
     text-align: center;
    }
-
-   
+    .hero-content a{
+    margin-left: 24px;
+    padding: 18px 14px;
+   }
 
    
 
