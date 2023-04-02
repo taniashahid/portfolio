@@ -58,7 +58,7 @@ html{
 
 .hero-inner{
     display: flex;
-    padding: 30px 120px;
+    padding: 50px 120px;
     margin: auto;
     
     
@@ -68,7 +68,7 @@ html{
 
 .hero-content h1{
     text-transform: capitalize;
-    font-size: 34px;
+    font-size: 32px;
     margin-bottom: 30px;
 
 }
@@ -142,22 +142,21 @@ html{
     display: none;
     
    }
+
    .hero-inner{
     flex-direction: column-reverse;
    }
    .hero-content h1{
     text-align: center;
     margin-top: 12px;
-    
    }
    .hero-content p{
     text-align: center;
-    
-   }
-   .hero-content a{
-    margin-left: 32px;
    }
 
+   .hero-content a{
+    margin-left: 12px;
+   }
    
 
 }
