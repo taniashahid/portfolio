@@ -133,7 +133,7 @@ html{
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+    
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
@@ -144,8 +144,21 @@ html{
    }
    .hero-inner{
     flex-direction: column-reverse;
-    text-align: center;
    }
+   .hero-content h1{
+    text-align: center;
+    margin-top: 12px;
+    
+   }
+   .hero-content p{
+    text-align: center;
+    
+   }
+   .hero-content a{
+    margin-left: 32px;
+   }
+
+   
 
 }
 
