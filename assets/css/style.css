@@ -58,7 +58,7 @@ html{
 
 .hero-inner{
     display: flex;
-    padding: 50px 120px;
+    padding: 50px 30px;
     margin: auto;
     
     
@@ -134,17 +134,17 @@ html{
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     
+    
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
    .sm-hide{
     display: none;
-    
    }
-
    .hero-inner{
     flex-direction: column-reverse;
+    
    }
    .hero-content h1{
     text-align: center;
@@ -154,9 +154,11 @@ html{
     text-align: center;
    }
 
-   .hero-content a{
-    margin-left: 12px;
-   }
+
+
+   
+
+  
    
 
 }
