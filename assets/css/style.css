@@ -237,13 +237,26 @@ html{
     text-align: center;
    }
     .hero-content a{
-    margin-left: 32px;
+    margin-left: 12px auto;
     padding: 12px 18px;
+
+
+    
+    
     
    }
 
    .top-heading{
     padding: 0 12px;
+   }
+
+   .top-heading a{
+    display: none;
+   }
+
+   .top-heading h5{
+    margin: 12px auto;
+    
    }
 
    .cards-wrapper-inner{
