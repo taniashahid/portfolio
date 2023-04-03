@@ -185,6 +185,9 @@ html{
     margin-bottom: 24px;
     align-items: center;
 }
+ 
+
+
 
 
 
@@ -228,16 +231,23 @@ html{
    .hero-inner{
     flex-direction: column-reverse;
     
+    text-align: center;
+    
    }
    .hero-content h1{
     text-align: center;
     margin-top: 12px;
+    font-size: 12px;
    }
    .hero-content p{
     text-align: center;
+    
+    font-size: 12px;
+    
    }
     .hero-content a{
-    margin-left: 12px auto;
+    
+    margin-left: 24px 34px;
     padding: 12px 18px;
 
 
