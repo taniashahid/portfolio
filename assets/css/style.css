@@ -53,7 +53,7 @@ html{
 
 .contact-detail li a:hover{
     color: var(--red);
-    transition: 02s;
+    transition: 0.3s;
     
 
 }
@@ -185,6 +185,100 @@ html{
     margin-bottom: 24px;
     align-items: center;
 }
+
+.top-heading2{
+    margin-left: 25px;
+    margin-top: 24px;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+
+.design-section {
+   display: flex;
+    
+}
+
+
+.design-section figure img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 12px;
+    margin-left: 24px;
+    margin-top: 6px;
+
+}
+
+.design-body h1{
+    margin: 0 45px;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.design-body ul{
+    margin: 0 45px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.design-body .year{
+    background-color: blue;
+    color: var(--white);
+    font-size: 13px;
+    padding:6px 14px;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 8px;
+
+}
+
+.design-body ul li{
+    list-style-type: none;
+    padding-right: 24px;
+    text-transform: capitalize;
+    
+}
+
+.design-body p{
+    margin: 0 45px;
+    margin-top: 18px;
+    
+}
+
+.design-section{
+    border-bottom: 4px solid gray;
+    margin-bottom: 18px;
+}
+
+
+
+
+.scl-icon ul{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.scl-icon ul li{
+    list-style-type: none;
+    margin: 18px;
+    
+}
+
+.scl-icon ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+
+    
+}
  
 
 
@@ -219,7 +313,7 @@ html{
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    
+
     
 }
 
@@ -246,9 +340,8 @@ html{
     
    }
     .hero-content a{
-    
-    margin-left: 24px 34px;
-    padding: 12px 18px;
+    margin: 0 auto;
+    padding: 12px 3px;
 
 
     
@@ -278,8 +371,29 @@ html{
    width: 100%;
    }
 
-  
-   
+
+   .top-heading2{
+    text-align: center;
+   }
+
+  .design-section{
+    display: block;
+  }
+
+  .design-section figure img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .design-body h1{
+    font-size: 18px;
+  }
+
+.design-body p{
+    width: 100%;
+}
 
 }
 
