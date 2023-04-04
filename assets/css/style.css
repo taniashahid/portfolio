@@ -381,8 +381,8 @@ html{
   }
 
   .design-section figure img {
-    width: 100%;
-    height: 90%;
+    width: 90%;
+    height: 30%;
     object-fit: cover;
     object-position: center center;
   }
