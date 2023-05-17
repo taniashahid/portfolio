@@ -22,6 +22,8 @@ html{
     max-width: 1170px;
     margin: 0 auto;
     
+
+    
     
 
 }
@@ -58,6 +60,24 @@ html{
 
 }
 
+.contact-detail a.home_active{
+    color: var(--red);
+
+}
+
+.contact-detail a.works_active{
+    color: var(--red);
+}
+.contact-detail a.blog_active{
+    color: var(--red);
+}
+
+.contact-detail a.contact_active{
+    color: var(--red);
+}
+
+
+
 
 .hero-inner{
     display: flex;
@@ -93,7 +113,7 @@ html{
 }
 
 .hero-content{
-    flex: 2;
+   flex: 2;
 }
 
 .hero-img{
@@ -104,8 +124,8 @@ html{
 }
 
 .hero-img img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     
 }
@@ -186,6 +206,12 @@ html{
     align-items: center;
 }
 
+.box ul li:first-child{
+    border-right: 1px solid grey;
+    
+    
+}
+
 .top-heading2{
     margin-left: 25px;
     margin-top: 24px;
@@ -202,13 +228,14 @@ html{
 
 
 .design-section figure img {
-    width: 100%;
+    max-width: 100%;
     height: 90%;
     object-fit: cover;
     object-position: center center;
     border-radius: 12px;
     margin-left: 24px;
     margin-top: 6px;
+    
 
 }
 
@@ -249,10 +276,11 @@ html{
     margin: 0 45px;
     margin-top: 18px;
     
+    
 }
 
 .design-section{
-    border-bottom: 4px solid gray;
+    border-bottom: 1px solid gray;
     margin-bottom: 18px;
 }
 
@@ -279,11 +307,68 @@ html{
 
     
 }
+
+.social-icons p{
+   text-align: center;
+   
+}
+
+
+
+.blog-wrapper{
+    padding: 24px 16px;
+}
  
+.blog-wrapper h1{
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    font-size: 45px;
+}
+
+.blog-inner h2{
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.blog-inner ul{
+    display: flex;
+    
+
+}
+
+.blog-inner ul li{
+    list-style: none;
+    margin: 0 8px 24px 0;
+    padding-right: 24px;
+}
+
+.blog-inner ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+.blog-inner p{
+    margin-bottom: 24px;
+}
+
+.blog-inner {
+    border-bottom: 1px solid grey;
+    margin-bottom: 12px;
+}
+
+.blog-inner li:first-child{
+   border-right: 1px solid gray;
+   padding-right: 6px;
+}
 
 
-
-
+.top-work{
+    margin-left:32px;
+    font-size: 45px;
+    margin-bottom: 32px;
+    text-transform: capitalize;
+}
 
 
 
@@ -391,9 +476,11 @@ html{
     font-size: 18px;
   }
 
-.design-body p{
-    width: 100%;
-}
+  .top-work{
+    text-align: center;
+  }
+
+
 
 }
 
